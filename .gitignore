@@ -1,7 +1,14 @@
 Logs/DEV_NOTES.md
 DEV_NOTE.md
 .README.rst
-src/output/
-iconic.png
+
+packages/example/
+out/
+
 *.iso
 *.img
+*.qcow2
+*.vmdk
+*.tar
+*.tar.gz
+*.tar.xz
