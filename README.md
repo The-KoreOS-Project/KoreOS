@@ -26,24 +26,24 @@ KorOS is an independent Linux Distribuition* (not based on another Distro) and i
 Rootfs contains the root filesystem for the distro: /usr, /root, /home...
 
 ## What is out/?
-Generated output (iso, kernel, initramfs...).
+`` generated output (iso, kernel, initramfs...).
 
 ## What is in scripts/?
-Quality of Life scripts.
+`scripts/` contains Quality of Life scripts.
 
 ## What is packages/?
-Contains packages used by the OS.
+`packages/` contains packages used by the OS.
 
 ## What is in Tests/?
 `Tests/` is a temporary directory containing tests of the languages: Rust, Python, Shell script, C, C++, Perl, Assembly (ARM64 for now), JavaScript, HTML and CSS.
 
-## What is in ARM_Pu_OS/?
-ARM64_Print-util_OS (or ARM_Pu_OS) is a project i made while not having a PC yet, very simple project to experiment with some stuff. The "OS" does the most basic stuff: boot, print text... etc. it is nothing big and not a serious project.
+## What is in ARM_HWp_OS/?
+ARM64_HelloWorldprint_OS (or ARM_HWp_OS) is a project i made while not having a PC yet, very simple project to experiment with some stuff. The "OS" does the most basic stuff: boot, print text. it is nothing big and not a serious project.
 
 ## What is in docs/?
 `docs/` contains my progress in the making of the OS:<br>
 • `ACSH.md` | conatains my biggest acconplishments<br>
-• `CHANGELOG.md` | containes a description of each update and upcoming features<br>
+• `CHANGELOG-dpcr.md` | containes a description of each update and upcoming features (CHANGELOG is now on KorOS's website, chaek it out!)<br>
 • `DEV_NOTES.md` | listed in the `.gitignore`, this contains my notes to keep track on what i'll do.<br>
 
 ## What do the branches contain?
