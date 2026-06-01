@@ -1,5 +1,5 @@
 <h1 align="center">KorOS</h1>
-<img width="1737" height="1566" alt="iconic" src="https://github.com/user-attachments/assets/3027f104-dbd0-4478-a6f3-6aceee2df553" />
+<img width="1237" height="1066" alt="iconic" src="https://github.com/user-attachments/assets/3027f104-dbd0-4478-a6f3-6aceee2df553" />
 <p align="center">My own Linux Distro</h2>
 
 <p align="center">
