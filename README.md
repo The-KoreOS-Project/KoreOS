@@ -1,4 +1,4 @@
-<h1 align="center">KorOS</h1>
+<h1 align="center">KoreOS</h1>
 <p align="center">
 <img width="400" height="400" alt="iconic" src="https://github.com/user-attachments/assets/3027f104-dbd0-4478-a6f3-6aceee2df553" />
 </p>
@@ -15,21 +15,18 @@
   </a>
 </p>
 
-### Check out the KorOS website!
-You can find the website <a href="https://nixxy-lv.github.io/KorOS-Web">Here!</a>
+### Check out the KoreOS's website!
+You can find the website <a href="https://nixxy-lv.github.io/KorWeb">Here!</a>
 
 ## What is this repository?
-This repository (will) contain the files of my future Linux Distro: KorOS.
-KorOS is an independent Linux Distribuition* (not based on another Distro) and it is gonna be made in mostly Rust but with some other languages sneaked in too.
-
-> [!NOTE]
-> *Even though it's independent you might see some similarities to other distros as i'll take a bit of inspiration from them.
+This repository contains the files for my future Linux Distro: KoreOS.
+KoreOS is an independent Linux Distribuition (not based on another Distro) and it is gonna be made in mostly Rust but with some other languages sneaked in too.
 
 ## What is in rootfs/?
 Rootfs contains the root filesystem for the distro: /usr, /root, /home...
 
 ## What is out/?
-`` generated output (iso, kernel, initramfs...).
+`out/` contains generated output (iso, kernel, initramfs...).
 
 ## What is in scripts/?
 `scripts/` contains Quality of Life scripts.
@@ -46,7 +43,7 @@ ARM64_HelloWorldprint_OS (or ARM_HWp_OS) is a project i made while not having a 
 ## What is in docs/?
 `docs/` contains my progress in the making of the OS:<br>
 • `ACSH.md` | conatains my biggest acconplishments<br>
-• `CHANGELOG-dpcr.md` | containes a description of each update and upcoming features (CHANGELOG is now on KorOS's website, chaek it out!)<br>
+• `CHANGELOG-dpcr.md` | containes a description of each update and upcoming features (changelog will be on github releases and my website's install page)<br>
 • `DEV_NOTES.md` | listed in the `.gitignore`, this contains my notes to keep track on what i'll do.<br>
 
 ## What do the branches contain?
@@ -54,14 +51,14 @@ ARM64_HelloWorldprint_OS (or ARM_HWp_OS) is a project i made while not having a 
 • `nightly` | contains early and less tested releases, expect bugs.<br>
 
 ## Where do i download it?
-As i said the full developement hasn't started yet, when it will, i'll make a webpage containg the installs for KorOS (and KorOS-Nightly in the future)
+official releases are here on github or on KoreOS's website.
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=nixxy-lv/KorOS&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=nixxy-lv/KoreOS&type=date&legend=top-left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nixxy-lv/KorOS&type=date&theme=dark&legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=nixxy-lv/KorOS&type=date&legend=top-left" />
-    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nixxy-lv/KorOS&type=date&legend=top-left" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nixxy-lv/KoreOS&type=date&theme=dark&legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=nixxy-lv/KoreOS&type=date&legend=top-left" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nixxy-lv/KoreOS&type=date&legend=top-left" />
   </picture>
 </a>
