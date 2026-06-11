@@ -1,18 +1,30 @@
-<h1 align="center">KoreOS</h1>
-<p align="center">
-<img width="400" height="400" alt="iconic" src="https://github.com/user-attachments/assets/3027f104-dbd0-4478-a6f3-6aceee2df553" />
-</p>
-<p align="center">My own Linux Distro</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Kor-OS-blueviolet?style=plastic">
-<br>
-<a href="mailto:nixdev888@gmail.com">
-    <img src="https://img.shields.io/badge/Contact-Me-white?style=plastic&logo=gmail&logoColor=white">
+    An independent systemd-free Linux Distribuition.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Arch-x86_64-blue?style=plastic&logo=amd&logoColor=white">
+  
+  <a href="mailto:koreosdev@gmail.com">
+    <img src="https://img.shields.io/badge/Contact-@-orange?style=plastic&logo=gmail&logoColor=white">
   </a>
-<a href="https://nixxy-lv.github.io/">
-    <img src="https://img.shields.io/badge/My-Website-blueviolet?style=plastic&logo=html5&logoColor=white">
+
+  <a href="https://the-koreos-project.github.io/">
+    <img src="https://img.shields.io/badge/KoreOS-Website-green?style=plastic&logo=html5&logoColor=white">
   </a>
+
+  <img src="https://img.shields.io/badge/KoreOS%20-Official-blueviolet?style=plastic&logo=devbox&logoColor=white">
+</p>
+
+<p align="center">
+    <a href="https://the-koreos-project.github.io/Manual">Manual</a> ? <a href="https://the-koreos-project.github.io/Install">Install</a> ? <a href="https://discord.gg/JJ9jdAQJpT">Discord</a>
+</p>
+
+------
+
+<p align="center">
+  <img src="./kicon.png" width="400">
 </p>
 
 ### Check out the KoreOS's website!
@@ -33,9 +45,6 @@ Rootfs contains the root filesystem for the distro: /usr, /root, /home...
 
 ## What is packages/?
 `packages/` contains packages used by the OS.
-
-## What is in Tests/?
-`Tests/` is a temporary directory containing tests of the languages: Rust, Python, Shell script, C, C++, Perl, Assembly (ARM64 for now), JavaScript, HTML and CSS.
 
 ## What is in ARM_HWp_OS/?
 ARM64_HelloWorldprint_OS (or ARM_HWp_OS) is a project i made while not having a PC yet, very simple project to experiment with some stuff. The "OS" does the most basic stuff: boot, print text. it is nothing big and not a serious project.
