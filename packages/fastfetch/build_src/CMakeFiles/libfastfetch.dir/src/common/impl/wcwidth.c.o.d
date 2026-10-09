@@ -1,7 +1,7 @@
 CMakeFiles/libfastfetch.dir/src/common/impl/wcwidth.c.o: \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/impl/wcwidth.c \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/impl/wcwidth.c \
  /usr/include/stdc-predef.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/wcwidth.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/wcwidth.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -12,7 +12,7 @@ CMakeFiles/libfastfetch.dir/src/common/impl/wcwidth.c.o: \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/3rdparty/widecharwidth/widechar_width_c.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/3rdparty/widecharwidth/widechar_width_c.h \
  /usr/include/stdlib.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \

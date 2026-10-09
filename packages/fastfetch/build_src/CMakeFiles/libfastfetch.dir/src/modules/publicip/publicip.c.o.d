@@ -1,8 +1,8 @@
 CMakeFiles/libfastfetch.dir/src/modules/publicip/publicip.c.o: \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/modules/publicip/publicip.c \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/modules/publicip/publicip.c \
  /usr/include/stdc-predef.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/printing.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/fastfetch.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/printing.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/fastfetch.h \
  /home/nixxy/KoreOS/packages/fastfetch/build_src/fastfetch_config.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -15,9 +15,9 @@ CMakeFiles/libfastfetch.dir/src/modules/publicip/publicip.c.o: \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdbool.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/arrutil.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/arrutil.h \
  /usr/include/assert.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/FFstrbuf.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/FFstrbuf.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h \
  /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h \
@@ -46,8 +46,8 @@ CMakeFiles/libfastfetch.dir/src/modules/publicip/publicip.c.o: \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/types/once_flag.h \
  /usr/include/bits/stdlib-float.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/memrchr.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/3rdparty/yyjson/yyjson.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/memrchr.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/3rdparty/yyjson/yyjson.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
@@ -55,22 +55,28 @@ CMakeFiles/libfastfetch.dir/src/modules/publicip/publicip.c.o: \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h \
- /usr/lib/gcc/x86_64-redhat-linux/16/include/float.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/FFlist.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/FFPlatform.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/unused.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/options/logo.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/ffdata.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/options/display.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/percent.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/parsing.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/option.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/options/general.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/format.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/argType.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/jsonconfig.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/strutil.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/float.h /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/FFlist.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/FFPlatform.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/unused.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/options/logo.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/ffdata.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/options/display.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/percent.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/parsing.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/option.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/options/general.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/format.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/argType.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/jsonconfig.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/strutil.h \
  /usr/include/ctype.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/modules/publicip/publicip.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/modules/publicip/option.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/detection/publicip/publicip.h
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/modules/publicip/publicip.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/modules/publicip/option.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/detection/publicip/publicip.h

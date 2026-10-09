@@ -1,4 +1,4 @@
-# Install script for directory: /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1
+# Install script for directory: /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -83,23 +83,23 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bash-completion/completions" TYPE FILE RENAME "fastfetch" FILES "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/completions/fastfetch.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bash-completion/completions" TYPE FILE RENAME "fastfetch" FILES "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/completions/fastfetch.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/zsh/site-functions" TYPE FILE RENAME "_fastfetch" FILES "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/completions/fastfetch.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/zsh/site-functions" TYPE FILE RENAME "_fastfetch" FILES "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/completions/fastfetch.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fish/vendor_completions.d" TYPE FILE RENAME "fastfetch.fish" FILES "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/completions/fastfetch.fish")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fish/vendor_completions.d" TYPE FILE RENAME "fastfetch.fish" FILES "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/completions/fastfetch.fish")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fastfetch" TYPE DIRECTORY FILES "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/presets")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fastfetch" TYPE DIRECTORY FILES "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/presets")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/fastfetch" TYPE FILE FILES "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/fastfetch" TYPE FILE FILES "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/LICENSE")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

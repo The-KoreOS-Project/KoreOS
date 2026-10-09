@@ -1,7 +1,7 @@
 CMakeFiles/libfastfetch.dir/src/common/impl/FFlist.c.o: \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/impl/FFlist.c \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/impl/FFlist.c \
  /usr/include/stdc-predef.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/FFlist.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/FFlist.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdbool.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \

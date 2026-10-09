@@ -1,13 +1,21 @@
 CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.o: \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/3rdparty/yyjson/yyjson.c \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/3rdparty/yyjson/yyjson.c \
  /usr/include/stdc-predef.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/3rdparty/yyjson/yyjson.h \
- /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/3rdparty/yyjson/yyjson.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h \
+ /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/float.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/bits/types/__fpos_t.h \
@@ -34,23 +42,15 @@ CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/types/once_flag.h \
- /usr/include/bits/stdlib-float.h \
- /usr/lib/gcc/x86_64-redhat-linux/16/include/limits.h \
- /usr/lib/gcc/x86_64-redhat-linux/16/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/pthread_stack_min-dynamic.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h /usr/include/string.h /usr/include/strings.h \
- /usr/lib/gcc/x86_64-redhat-linux/16/include/float.h \
- /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /usr/lib/gcc/x86_64-redhat-linux/16/include/stdbool.h \
- /usr/include/math.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/stdlib-float.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
  /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h
+ /usr/include/bits/iscanonical.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/stdbool.h

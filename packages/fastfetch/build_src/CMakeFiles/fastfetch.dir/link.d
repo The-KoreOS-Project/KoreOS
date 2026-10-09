@@ -26,6 +26,7 @@ fastfetch: \
   CMakeFiles/libfastfetch.dir/src/common/impl/time.c.o \
   CMakeFiles/libfastfetch.dir/src/common/impl/edidHelper.c.o \
   CMakeFiles/libfastfetch.dir/src/common/impl/base64.c.o \
+  CMakeFiles/libfastfetch.dir/src/common/impl/FFcache.c.o \
   CMakeFiles/libfastfetch.dir/src/common/impl/FFlist.c.o \
   CMakeFiles/libfastfetch.dir/src/common/impl/FFstrbuf.c.o \
   CMakeFiles/libfastfetch.dir/src/common/impl/path.c.o \
@@ -57,6 +58,7 @@ fastfetch: \
   CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/publicip/publicip.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/terminaltheme/terminaltheme.c.o \
+  CMakeFiles/libfastfetch.dir/src/detection/top/top.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/version/version.c.o \
@@ -64,41 +66,47 @@ fastfetch: \
   CMakeFiles/libfastfetch.dir/src/detection/weather/weather.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool.c.o \
   CMakeFiles/libfastfetch.dir/src/logo/builtin.c.o \
+  CMakeFiles/libfastfetch.dir/src/logo/logo.c.o \
+  CMakeFiles/libfastfetch.dir/src/modules/modules.c.o \
+  CMakeFiles/libfastfetch.dir/src/options/display.c.o \
+  CMakeFiles/libfastfetch.dir/src/options/logo.c.o \
+  CMakeFiles/libfastfetch.dir/src/options/general.c.o \
+  CMakeFiles/libfastfetch.dir/src/logo/image/image.c.o \
   CMakeFiles/libfastfetch.dir/src/logo/image/im6.c.o \
   CMakeFiles/libfastfetch.dir/src/logo/image/im7.c.o \
-  CMakeFiles/libfastfetch.dir/src/logo/image/image.c.o \
-  CMakeFiles/libfastfetch.dir/src/logo/logo.c.o \
+  CMakeFiles/libfastfetch.dir/src/logo/image/sixel.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/battery/battery.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/bios/bios.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/bluetooth/bluetooth.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/bluetoothradio/bluetoothradio.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/board/board.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/bootmgr/bootmgr.c.o \
-  CMakeFiles/libfastfetch.dir/src/modules/brightness/brightness.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/break/break.c.o \
+  CMakeFiles/libfastfetch.dir/src/modules/brightness/brightness.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/btrfs/btrfs.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/camera/camera.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/chassis/chassis.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/codec/codec.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/colors/colors.c.o \
+  CMakeFiles/libfastfetch.dir/src/modules/command/command.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/cpu/cpu.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/cpucache/cpucache.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/cpuusage/cpuusage.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/cursor/cursor.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/custom/custom.c.o \
-  CMakeFiles/libfastfetch.dir/src/modules/command/command.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/datetime/datetime.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/de/de.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/disk/disk.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/diskio/diskio.c.o \
+  CMakeFiles/libfastfetch.dir/src/modules/display/display.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/dns/dns.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/editor/editor.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/font/font.c.o \
+  CMakeFiles/libfastfetch.dir/src/modules/gamepad/gamepad.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/gpu/gpu.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/host/host.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/icons/icons.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/initsystem/initsystem.c.o \
-  CMakeFiles/libfastfetch.dir/src/modules/gamepad/gamepad.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/kernel/kernel.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/keyboard/keyboard.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/lm/lm.c.o \
@@ -106,8 +114,10 @@ fastfetch: \
   CMakeFiles/libfastfetch.dir/src/modules/locale/locale.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/localip/localip.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/logo/logo.c.o \
+  CMakeFiles/libfastfetch.dir/src/modules/media/media.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/memory/memory.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/monitor/monitor.c.o \
+  CMakeFiles/libfastfetch.dir/src/modules/mouse/mouse.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/netio/netio.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/opencl/opencl.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/opengl/opengl.c.o \
@@ -115,23 +125,21 @@ fastfetch: \
   CMakeFiles/libfastfetch.dir/src/modules/packages/packages.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/physicaldisk/physicaldisk.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/physicalmemory/physicalmemory.c.o \
-  CMakeFiles/libfastfetch.dir/src/modules/processes/processes.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/player/player.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/poweradapter/poweradapter.c.o \
+  CMakeFiles/libfastfetch.dir/src/modules/processes/processes.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/publicip/publicip.c.o \
-  CMakeFiles/libfastfetch.dir/src/modules/display/display.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/separator/separator.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/shell/shell.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/sound/sound.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/swap/swap.c.o \
-  CMakeFiles/libfastfetch.dir/src/modules/media/media.c.o \
-  CMakeFiles/libfastfetch.dir/src/modules/mouse/mouse.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/terminal/terminal.c.o \
-  CMakeFiles/libfastfetch.dir/src/modules/terminaltheme/terminaltheme.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/terminalfont/terminalfont.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/terminalsize/terminalsize.c.o \
+  CMakeFiles/libfastfetch.dir/src/modules/terminaltheme/terminaltheme.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/theme/theme.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/title/title.c.o \
+  CMakeFiles/libfastfetch.dir/src/modules/top/top.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/tpm/tpm.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/uptime/uptime.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/users/users.c.o \
@@ -143,10 +151,6 @@ fastfetch: \
   CMakeFiles/libfastfetch.dir/src/modules/wm/wm.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/wmtheme/wmtheme.c.o \
   CMakeFiles/libfastfetch.dir/src/modules/zpool/zpool.c.o \
-  CMakeFiles/libfastfetch.dir/src/modules/modules.c.o \
-  CMakeFiles/libfastfetch.dir/src/options/display.c.o \
-  CMakeFiles/libfastfetch.dir/src/options/logo.c.o \
-  CMakeFiles/libfastfetch.dir/src/options/general.c.o \
   CMakeFiles/libfastfetch.dir/src/common/impl/dbus.c.o \
   CMakeFiles/libfastfetch.dir/src/common/impl/io_unix.c.o \
   CMakeFiles/libfastfetch.dir/src/common/impl/netif_linux.c.o \
@@ -220,6 +224,7 @@ fastfetch: \
   CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_linux.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_linux.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/theme/theme_linux.c.o \
+  CMakeFiles/libfastfetch.dir/src/detection/top/top_linux.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_linux.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_linux.c.o \
   CMakeFiles/libfastfetch.dir/src/detection/users/users_linux.c.o \
@@ -328,6 +333,8 @@ CMakeFiles/libfastfetch.dir/src/common/impl/edidHelper.c.o:
 
 CMakeFiles/libfastfetch.dir/src/common/impl/base64.c.o:
 
+CMakeFiles/libfastfetch.dir/src/common/impl/FFcache.c.o:
+
 CMakeFiles/libfastfetch.dir/src/common/impl/FFlist.c.o:
 
 CMakeFiles/libfastfetch.dir/src/common/impl/FFstrbuf.c.o:
@@ -390,6 +397,8 @@ CMakeFiles/libfastfetch.dir/src/detection/publicip/publicip.c.o:
 
 CMakeFiles/libfastfetch.dir/src/detection/terminaltheme/terminaltheme.c.o:
 
+CMakeFiles/libfastfetch.dir/src/detection/top/top.c.o:
+
 CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont.c.o:
 
 CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell.c.o:
@@ -404,13 +413,23 @@ CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool.c.o:
 
 CMakeFiles/libfastfetch.dir/src/logo/builtin.c.o:
 
+CMakeFiles/libfastfetch.dir/src/logo/logo.c.o:
+
+CMakeFiles/libfastfetch.dir/src/modules/modules.c.o:
+
+CMakeFiles/libfastfetch.dir/src/options/display.c.o:
+
+CMakeFiles/libfastfetch.dir/src/options/logo.c.o:
+
+CMakeFiles/libfastfetch.dir/src/options/general.c.o:
+
+CMakeFiles/libfastfetch.dir/src/logo/image/image.c.o:
+
 CMakeFiles/libfastfetch.dir/src/logo/image/im6.c.o:
 
 CMakeFiles/libfastfetch.dir/src/logo/image/im7.c.o:
 
-CMakeFiles/libfastfetch.dir/src/logo/image/image.c.o:
-
-CMakeFiles/libfastfetch.dir/src/logo/logo.c.o:
+CMakeFiles/libfastfetch.dir/src/logo/image/sixel.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/battery/battery.c.o:
 
@@ -424,9 +443,9 @@ CMakeFiles/libfastfetch.dir/src/modules/board/board.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/bootmgr/bootmgr.c.o:
 
-CMakeFiles/libfastfetch.dir/src/modules/brightness/brightness.c.o:
-
 CMakeFiles/libfastfetch.dir/src/modules/break/break.c.o:
+
+CMakeFiles/libfastfetch.dir/src/modules/brightness/brightness.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/btrfs/btrfs.c.o:
 
@@ -438,6 +457,8 @@ CMakeFiles/libfastfetch.dir/src/modules/codec/codec.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/colors/colors.c.o:
 
+CMakeFiles/libfastfetch.dir/src/modules/command/command.c.o:
+
 CMakeFiles/libfastfetch.dir/src/modules/cpu/cpu.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/cpucache/cpucache.c.o:
@@ -448,8 +469,6 @@ CMakeFiles/libfastfetch.dir/src/modules/cursor/cursor.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/custom/custom.c.o:
 
-CMakeFiles/libfastfetch.dir/src/modules/command/command.c.o:
-
 CMakeFiles/libfastfetch.dir/src/modules/datetime/datetime.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/de/de.c.o:
@@ -458,11 +477,15 @@ CMakeFiles/libfastfetch.dir/src/modules/disk/disk.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/diskio/diskio.c.o:
 
+CMakeFiles/libfastfetch.dir/src/modules/display/display.c.o:
+
 CMakeFiles/libfastfetch.dir/src/modules/dns/dns.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/editor/editor.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/font/font.c.o:
+
+CMakeFiles/libfastfetch.dir/src/modules/gamepad/gamepad.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/gpu/gpu.c.o:
 
@@ -471,8 +494,6 @@ CMakeFiles/libfastfetch.dir/src/modules/host/host.c.o:
 CMakeFiles/libfastfetch.dir/src/modules/icons/icons.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/initsystem/initsystem.c.o:
-
-CMakeFiles/libfastfetch.dir/src/modules/gamepad/gamepad.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/kernel/kernel.c.o:
 
@@ -488,9 +509,13 @@ CMakeFiles/libfastfetch.dir/src/modules/localip/localip.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/logo/logo.c.o:
 
+CMakeFiles/libfastfetch.dir/src/modules/media/media.c.o:
+
 CMakeFiles/libfastfetch.dir/src/modules/memory/memory.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/monitor/monitor.c.o:
+
+CMakeFiles/libfastfetch.dir/src/modules/mouse/mouse.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/netio/netio.c.o:
 
@@ -506,15 +531,13 @@ CMakeFiles/libfastfetch.dir/src/modules/physicaldisk/physicaldisk.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/physicalmemory/physicalmemory.c.o:
 
-CMakeFiles/libfastfetch.dir/src/modules/processes/processes.c.o:
-
 CMakeFiles/libfastfetch.dir/src/modules/player/player.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/poweradapter/poweradapter.c.o:
 
-CMakeFiles/libfastfetch.dir/src/modules/publicip/publicip.c.o:
+CMakeFiles/libfastfetch.dir/src/modules/processes/processes.c.o:
 
-CMakeFiles/libfastfetch.dir/src/modules/display/display.c.o:
+CMakeFiles/libfastfetch.dir/src/modules/publicip/publicip.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/separator/separator.c.o:
 
@@ -524,21 +547,19 @@ CMakeFiles/libfastfetch.dir/src/modules/sound/sound.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/swap/swap.c.o:
 
-CMakeFiles/libfastfetch.dir/src/modules/media/media.c.o:
-
-CMakeFiles/libfastfetch.dir/src/modules/mouse/mouse.c.o:
-
 CMakeFiles/libfastfetch.dir/src/modules/terminal/terminal.c.o:
-
-CMakeFiles/libfastfetch.dir/src/modules/terminaltheme/terminaltheme.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/terminalfont/terminalfont.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/terminalsize/terminalsize.c.o:
 
+CMakeFiles/libfastfetch.dir/src/modules/terminaltheme/terminaltheme.c.o:
+
 CMakeFiles/libfastfetch.dir/src/modules/theme/theme.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/title/title.c.o:
+
+CMakeFiles/libfastfetch.dir/src/modules/top/top.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/tpm/tpm.c.o:
 
@@ -561,14 +582,6 @@ CMakeFiles/libfastfetch.dir/src/modules/wm/wm.c.o:
 CMakeFiles/libfastfetch.dir/src/modules/wmtheme/wmtheme.c.o:
 
 CMakeFiles/libfastfetch.dir/src/modules/zpool/zpool.c.o:
-
-CMakeFiles/libfastfetch.dir/src/modules/modules.c.o:
-
-CMakeFiles/libfastfetch.dir/src/options/display.c.o:
-
-CMakeFiles/libfastfetch.dir/src/options/logo.c.o:
-
-CMakeFiles/libfastfetch.dir/src/options/general.c.o:
 
 CMakeFiles/libfastfetch.dir/src/common/impl/dbus.c.o:
 
@@ -715,6 +728,8 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_linux.c.o:
 CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_linux.c.o:
 
 CMakeFiles/libfastfetch.dir/src/detection/theme/theme_linux.c.o:
+
+CMakeFiles/libfastfetch.dir/src/detection/top/top_linux.c.o:
 
 CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_linux.c.o:
 

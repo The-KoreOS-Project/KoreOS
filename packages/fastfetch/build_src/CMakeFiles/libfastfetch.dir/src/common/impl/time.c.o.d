@@ -1,7 +1,7 @@
 CMakeFiles/libfastfetch.dir/src/common/impl/time.c.o: \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/impl/time.c \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/impl/time.c \
  /usr/include/stdc-predef.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/time.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/time.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdbool.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -23,7 +23,7 @@ CMakeFiles/libfastfetch.dir/src/common/impl/time.c.o: \
  /usr/include/bits/types/timer_t.h \
  /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/arrutil.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/arrutil.h \
  /usr/include/assert.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \

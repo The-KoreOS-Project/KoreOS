@@ -188,16 +188,16 @@ CMAKE_PROJECT_NAME:STATIC=fastfetch
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=2.67.1
+CMAKE_PROJECT_VERSION:STATIC=2.69.0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=2
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=67
+CMAKE_PROJECT_VERSION_MINOR:STATIC=69
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=1
+CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -360,6 +360,9 @@ ENABLE_IMAGEMAGICK6:BOOL=ON
 //Enable imagemagick 7
 ENABLE_IMAGEMAGICK7:BOOL=ON
 
+//Enable image logos (sixel / kitty / iTerm / chafa)
+ENABLE_IMAGE_LOGO:BOOL=ON
+
 //Enable libzfs
 ENABLE_LIBZFS:BOOL=ON
 
@@ -379,7 +382,7 @@ ENABLE_OPENCL:BOOL=ON
 ENABLE_PULSE:BOOL=ON
 
 //Enable quickjs scripting for format strings
-ENABLE_QUICKJS:BOOL=ON
+ENABLE_QUICKJS:BOOL=OFF
 
 //Enable rpm
 ENABLE_RPM:BOOL=ON
@@ -669,6 +672,9 @@ MODULE_DISABLE_THEME:BOOL=OFF
 //Disable module title
 MODULE_DISABLE_TITLE:BOOL=OFF
 
+//Disable module top
+MODULE_DISABLE_TOP:BOOL=OFF
+
 //Disable module tpm
 MODULE_DISABLE_TPM:BOOL=OFF
 
@@ -725,6 +731,9 @@ PACKAGES_DISABLE_CARDS:BOOL=OFF
 
 //Disable CHOCO package manager detection by default
 PACKAGES_DISABLE_CHOCO:BOOL=OFF
+
+//Disable CRUX package manager detection by default
+PACKAGES_DISABLE_CRUX:BOOL=OFF
 
 //Disable DPKG package manager detection by default
 PACKAGES_DISABLE_DPKG:BOOL=OFF
@@ -801,6 +810,9 @@ PACKAGES_DISABLE_PORG:BOOL=OFF
 //Disable RPM package manager detection by default
 PACKAGES_DISABLE_RPM:BOOL=OFF
 
+//Disable RUM package manager detection by default
+PACKAGES_DISABLE_RUM:BOOL=OFF
+
 //Disable SCOOP package manager detection by default
 PACKAGES_DISABLE_SCOOP:BOOL=OFF
 
@@ -872,16 +884,13 @@ fastfetch_BINARY_DIR:STATIC=/home/nixxy/KoreOS/packages/fastfetch/build_src
 fastfetch_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-fastfetch_SOURCE_DIR:STATIC=/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1
+fastfetch_SOURCE_DIR:STATIC=/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0
 
 //Path to a library.
 pkgcfg_lib_ELF_elf:FILEPATH=/usr/lib64/libelf.so
 
 //Path to a library.
 pkgcfg_lib_ZLIB_z:FILEPATH=/usr/lib64/libz.so
-
-//The directory containing a CMake configuration file for qjs.
-qjs_DIR:PATH=qjs_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for vdpau.
 vdpau_DIR:PATH=vdpau_DIR-NOTFOUND
@@ -986,7 +995,7 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR
@@ -1283,7 +1292,7 @@ ELF_STATIC_LIBS:INTERNAL=
 ELF_STATIC_LIBS_L:INTERNAL=
 ELF_STATIC_LIBS_OTHER:INTERNAL=
 ELF_STATIC_LIBS_PATHS:INTERNAL=
-ELF_VERSION:INTERNAL=0.195
+ELF_VERSION:INTERNAL=0.196
 ELF_libelf_INCLUDEDIR:INTERNAL=
 ELF_libelf_LIBDIR:INTERNAL=
 ELF_libelf_PREFIX:INTERNAL=
@@ -1291,7 +1300,7 @@ ELF_libelf_VERSION:INTERNAL=
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/sbin/pkg-config][v2.5.1()]
 //Details about finding Python
-FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/sbin/python3.14][found components: Interpreter ][v3.14.7()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/sbin/python3.14][found components: Interpreter ][v3.14.8()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GIO_CFLAGS:INTERNAL=
@@ -1555,31 +1564,6 @@ PULSE_libpulse_INCLUDEDIR:INTERNAL=
 PULSE_libpulse_LIBDIR:INTERNAL=
 PULSE_libpulse_PREFIX:INTERNAL=
 PULSE_libpulse_VERSION:INTERNAL=
-QUICKJS_CFLAGS:INTERNAL=
-QUICKJS_CFLAGS_I:INTERNAL=
-QUICKJS_CFLAGS_OTHER:INTERNAL=
-QUICKJS_FOUND:INTERNAL=
-QUICKJS_INCLUDEDIR:INTERNAL=
-QUICKJS_LIBDIR:INTERNAL=
-QUICKJS_LIBS:INTERNAL=
-QUICKJS_LIBS_L:INTERNAL=
-QUICKJS_LIBS_OTHER:INTERNAL=
-QUICKJS_LIBS_PATHS:INTERNAL=
-QUICKJS_MODULE_NAME:INTERNAL=
-QUICKJS_PREFIX:INTERNAL=
-QUICKJS_STATIC_CFLAGS:INTERNAL=
-QUICKJS_STATIC_CFLAGS_I:INTERNAL=
-QUICKJS_STATIC_CFLAGS_OTHER:INTERNAL=
-QUICKJS_STATIC_LIBDIR:INTERNAL=
-QUICKJS_STATIC_LIBS:INTERNAL=
-QUICKJS_STATIC_LIBS_L:INTERNAL=
-QUICKJS_STATIC_LIBS_OTHER:INTERNAL=
-QUICKJS_STATIC_LIBS_PATHS:INTERNAL=
-QUICKJS_VERSION:INTERNAL=
-QUICKJS_qjs_INCLUDEDIR:INTERNAL=
-QUICKJS_qjs_LIBDIR:INTERNAL=
-QUICKJS_qjs_PREFIX:INTERNAL=
-QUICKJS_qjs_VERSION:INTERNAL=
 RPM_CFLAGS:INTERNAL=
 RPM_CFLAGS_I:INTERNAL=
 RPM_CFLAGS_OTHER:INTERNAL=
@@ -1861,8 +1845,8 @@ _Python_Development_REASON_FAILURE:INTERNAL=
 //Path to a program.
 _Python_EXECUTABLE:INTERNAL=/usr/sbin/python3.14
 //Python Properties
-_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;14;7;64;32;<none>;cpython-314-x86_64-linux-gnu;abi3;/usr/lib64/python3.14;/usr/local/lib64/python3.14;/usr/local/lib/python3.14/site-packages;/usr/local/lib64/python3.14/site-packages
-_Python_INTERPRETER_SIGNATURE:INTERNAL=5b3efb398f52f432e47c87e4ea103d3c
+_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;14;8;64;32;<none>;cpython-314-x86_64-linux-gnu;abi3;/usr/lib64/python3.14;/usr/local/lib64/python3.14;/usr/local/lib/python3.14/site-packages;/usr/local/lib64/python3.14/site-packages
+_Python_INTERPRETER_SIGNATURE:INTERNAL=79d9396b68bbbaaaad3921f6cb88819c
 //NumPy reason failure
 _Python_NumPy_REASON_FAILURE:INTERNAL=
 __pkg_config_checked_CHAFA:INTERNAL=1
@@ -1880,7 +1864,6 @@ __pkg_config_checked_IMAGEMAGICK7:INTERNAL=1
 __pkg_config_checked_OPENCL:INTERNAL=1
 __pkg_config_checked_PC_SQLite3:INTERNAL=1
 __pkg_config_checked_PULSE:INTERNAL=1
-__pkg_config_checked_QUICKJS:INTERNAL=1
 __pkg_config_checked_RPM:INTERNAL=1
 __pkg_config_checked_SQLITE3:INTERNAL=1
 __pkg_config_checked_VADRM:INTERNAL=1

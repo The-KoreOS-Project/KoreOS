@@ -1,4 +1,4 @@
-.TH FASTFETCH 1  "Aug 21 2026" "Fastfetch 2.67.1" "FASTFETCH"
+.TH FASTFETCH 1  "Oct 09 2026" "Fastfetch 2.69.0" "FASTFETCH"
 .SH NAME
 fastfetch \- A fast and feature-rich system information tool similar to neofetch
 .SH SYNOPSIS
@@ -220,6 +220,12 @@ Any combination of options can be made permanent by generating a configuration f
  Set the padding at the top of the logo
 
 .TP
+\fB\-\-logo-padding-bottom\fR \fInum\fR
+ Set the padding at the bottom of the logo
+
+ Only used with "--logo-position top"
+
+.TP
 \fB\-\-logo-print-remaining\fR [\fIbool\fR]
  Specify whether to print remaining logo lines when the logo is taller than the module list
 
@@ -228,8 +234,19 @@ Any combination of options can be made permanent by generating a configuration f
  Set the display position of the logo
 
 .TP
-\fB\-\-logo-recache\fR [\fIbool\fR]
- If true, regenerate the image logo cache
+\fB\-\-logo-cache\fR [\fIenum\fR]
+ Specify how the image logo cache is used
+
+ See "--help logo-animation-frame" for the one case where a cached rendering can outlive the image type that produced it
+
+.TP
+\fB\-\-logo-animation-frame\fR [\fInum\fR]
+ Select which frame of an animated image logo to render
+
+ Animated kitty graphics only, and only if the image source is animated; 1 or higher renders that frame as a still image, 0 plays the animation
+ A selected frame is cached exactly like the first frame is, sharing its entries; the frame number is recorded next to them, so changing this option re-renders
+ That record is per cache directory, not per image type: switching --logo-type between two types that both have a cached rendering here, and asking for a different frame, can pair one type's rendering with the other's frame number
+ Run "--logo-cache regen" after such a switch
 
 .TP
 \fB\-\-file\fR \fIpath\fR
@@ -402,6 +419,12 @@ Any combination of options can be made permanent by generating a configuration f
 .TP
 \fB\-\-key-type\fR \fIenum\fR
  Specify whether to show an icon before string keys
+
+.TP
+\fB\-\-key-language\fR [\fIenum\fR]
+ Specify the language used for module keys
+
+ Leave empty for auto-detection based on the system locale. Unsupported locales fall back to English
 
 .TP
 \fB\-\-bright-color\fR [\fIbool\fR]

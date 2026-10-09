@@ -1,7 +1,7 @@
 CMakeFiles/libfastfetch.dir/src/common/impl/strutil.c.o: \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/impl/strutil.c \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/impl/strutil.c \
  /usr/include/stdc-predef.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/strutil.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/strutil.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdbool.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -17,4 +17,4 @@ CMakeFiles/libfastfetch.dir/src/common/impl/strutil.c.o: \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/ctype.h /usr/include/bits/endian.h \
  /usr/include/bits/endianness.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/wcwidth.h
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/wcwidth.h

@@ -1,7 +1,7 @@
 CMakeFiles/libfastfetch.dir/src/common/impl/settings.c.o: \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/impl/settings.c \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/impl/settings.c \
  /usr/include/stdc-predef.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/fastfetch.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/fastfetch.h \
  /home/nixxy/KoreOS/packages/fastfetch/build_src/fastfetch_config.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -14,9 +14,9 @@ CMakeFiles/libfastfetch.dir/src/common/impl/settings.c.o: \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdbool.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/arrutil.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/arrutil.h \
  /usr/include/assert.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/FFstrbuf.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/FFstrbuf.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h \
  /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h \
@@ -45,8 +45,8 @@ CMakeFiles/libfastfetch.dir/src/common/impl/settings.c.o: \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/types/once_flag.h \
  /usr/include/bits/stdlib-float.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/memrchr.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/3rdparty/yyjson/yyjson.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/memrchr.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/3rdparty/yyjson/yyjson.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
@@ -54,22 +54,28 @@ CMakeFiles/libfastfetch.dir/src/common/impl/settings.c.o: \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h \
- /usr/lib/gcc/x86_64-redhat-linux/16/include/float.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/FFlist.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/FFPlatform.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/unused.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/options/logo.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/ffdata.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/options/display.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/percent.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/parsing.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/option.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/options/general.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/settings.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/library.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/float.h /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/FFlist.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/FFPlatform.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/unused.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/options/logo.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/ffdata.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/options/display.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/percent.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/parsing.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/option.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/options/general.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/settings.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/library.h \
  /usr/include/dlfcn.h /usr/include/bits/dlfcn.h \
  /usr/include/bits/dl_find_object.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/thread.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/thread.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
  /usr/include/linux/sched/types.h /usr/include/linux/types.h \
  /usr/include/asm/types.h /usr/include/asm-generic/types.h \
@@ -98,7 +104,7 @@ CMakeFiles/libfastfetch.dir/src/common/impl/settings.c.o: \
  /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
  /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h \
- /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/common/io.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/io.h \
  /usr/include/dirent.h /usr/include/bits/dirent.h \
  /usr/include/bits/dirent_ext.h /usr/include/sys/stat.h \
  /usr/include/bits/stat.h /usr/include/bits/struct_stat.h \
@@ -112,4 +118,6 @@ CMakeFiles/libfastfetch.dir/src/common/impl/settings.c.o: \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/cloexec.h /usr/include/linux/falloc.h \
- /usr/include/linux/openat2.h /usr/include/bits/openat2.h
+ /usr/include/linux/openat2.h /usr/include/bits/openat2.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/debug.h \
+ /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/common/time.h

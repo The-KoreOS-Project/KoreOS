@@ -53,7 +53,7 @@ RM = /usr/sbin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1
+CMAKE_SOURCE_DIR = /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/nixxy/KoreOS/packages/fastfetch/build_src
@@ -73,18 +73,18 @@ CMakeFiles/fastfetch.dir/codegen:
 .PHONY : CMakeFiles/fastfetch.dir/codegen
 
 CMakeFiles/fastfetch.dir/src/fastfetch.c.o: CMakeFiles/fastfetch.dir/flags.make
-CMakeFiles/fastfetch.dir/src/fastfetch.c.o: /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/fastfetch.c
+CMakeFiles/fastfetch.dir/src/fastfetch.c.o: /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/fastfetch.c
 CMakeFiles/fastfetch.dir/src/fastfetch.c.o: CMakeFiles/fastfetch.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fastfetch.dir/src/fastfetch.c.o"
-	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/fastfetch.dir/src/fastfetch.c.o -MF CMakeFiles/fastfetch.dir/src/fastfetch.c.o.d -o CMakeFiles/fastfetch.dir/src/fastfetch.c.o -c /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/fastfetch.c
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/fastfetch.dir/src/fastfetch.c.o -MF CMakeFiles/fastfetch.dir/src/fastfetch.c.o.d -o CMakeFiles/fastfetch.dir/src/fastfetch.c.o -c /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/fastfetch.c
 
 CMakeFiles/fastfetch.dir/src/fastfetch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/fastfetch.dir/src/fastfetch.c.i"
-	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/fastfetch.c > CMakeFiles/fastfetch.dir/src/fastfetch.c.i
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/fastfetch.c > CMakeFiles/fastfetch.dir/src/fastfetch.c.i
 
 CMakeFiles/fastfetch.dir/src/fastfetch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/fastfetch.dir/src/fastfetch.c.s"
-	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/fastfetch.c -o CMakeFiles/fastfetch.dir/src/fastfetch.c.s
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/fastfetch.c -o CMakeFiles/fastfetch.dir/src/fastfetch.c.s
 
 # Object files for target fastfetch
 fastfetch_OBJECTS = \
@@ -115,6 +115,7 @@ fastfetch_EXTERNAL_OBJECTS = \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/common/impl/time.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/common/impl/edidHelper.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/common/impl/base64.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/common/impl/FFcache.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/common/impl/FFlist.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/common/impl/FFstrbuf.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/common/impl/path.c.o" \
@@ -146,6 +147,7 @@ fastfetch_EXTERNAL_OBJECTS = \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/publicip/publicip.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/terminaltheme/terminaltheme.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/top/top.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/version/version.c.o" \
@@ -153,41 +155,47 @@ fastfetch_EXTERNAL_OBJECTS = \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/weather/weather.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/logo/builtin.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/logo/logo.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/modules.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/options/display.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/options/logo.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/options/general.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/logo/image/image.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/logo/image/im6.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/logo/image/im7.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/logo/image/image.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/logo/logo.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/logo/image/sixel.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/battery/battery.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/bios/bios.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/bluetooth/bluetooth.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/bluetoothradio/bluetoothradio.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/board/board.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/bootmgr/bootmgr.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/brightness/brightness.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/break/break.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/brightness/brightness.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/btrfs/btrfs.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/camera/camera.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/chassis/chassis.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/codec/codec.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/colors/colors.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/command/command.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/cpu/cpu.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/cpucache/cpucache.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/cpuusage/cpuusage.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/cursor/cursor.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/custom/custom.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/command/command.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/datetime/datetime.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/de/de.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/disk/disk.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/diskio/diskio.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/display/display.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/dns/dns.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/editor/editor.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/font/font.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/gamepad/gamepad.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/gpu/gpu.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/host/host.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/icons/icons.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/initsystem/initsystem.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/gamepad/gamepad.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/kernel/kernel.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/keyboard/keyboard.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/lm/lm.c.o" \
@@ -195,8 +203,10 @@ fastfetch_EXTERNAL_OBJECTS = \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/locale/locale.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/localip/localip.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/logo/logo.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/media/media.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/memory/memory.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/monitor/monitor.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/mouse/mouse.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/netio/netio.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/opencl/opencl.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/opengl/opengl.c.o" \
@@ -204,23 +214,21 @@ fastfetch_EXTERNAL_OBJECTS = \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/packages/packages.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/physicaldisk/physicaldisk.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/physicalmemory/physicalmemory.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/processes/processes.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/player/player.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/poweradapter/poweradapter.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/processes/processes.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/publicip/publicip.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/display/display.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/separator/separator.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/shell/shell.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/sound/sound.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/swap/swap.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/media/media.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/mouse/mouse.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/terminal/terminal.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/terminaltheme/terminaltheme.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/terminalfont/terminalfont.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/terminalsize/terminalsize.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/terminaltheme/terminaltheme.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/theme/theme.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/title/title.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/top/top.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/tpm/tpm.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/uptime/uptime.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/users/users.c.o" \
@@ -232,10 +240,6 @@ fastfetch_EXTERNAL_OBJECTS = \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/wm/wm.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/wmtheme/wmtheme.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/zpool/zpool.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/modules/modules.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/options/display.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/options/logo.c.o" \
-"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/options/general.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/common/impl/dbus.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/common/impl/io_unix.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/common/impl/netif_linux.c.o" \
@@ -309,6 +313,7 @@ fastfetch_EXTERNAL_OBJECTS = \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_linux.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_linux.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/theme/theme_linux.c.o" \
+"/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/top/top_linux.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_linux.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_linux.c.o" \
 "/home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/libfastfetch.dir/src/detection/users/users_linux.c.o" \
@@ -347,6 +352,7 @@ fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/temps.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/time.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/edidHelper.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/base64.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/FFcache.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/FFlist.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/FFstrbuf.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/path.c.o
@@ -378,6 +384,7 @@ fastfetch: CMakeFiles/libfastfetch.dir/src/detection/packages/packages.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/publicip/publicip.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/terminaltheme/terminaltheme.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/detection/top/top.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/version/version.c.o
@@ -385,41 +392,47 @@ fastfetch: CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/weather/weather.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/logo/builtin.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/logo/logo.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/modules/modules.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/options/display.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/options/logo.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/options/general.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/logo/image/image.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/logo/image/im6.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/logo/image/im7.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/logo/image/image.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/logo/logo.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/logo/image/sixel.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/battery/battery.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/bios/bios.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/bluetooth/bluetooth.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/bluetoothradio/bluetoothradio.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/board/board.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/bootmgr/bootmgr.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/modules/brightness/brightness.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/break/break.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/modules/brightness/brightness.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/btrfs/btrfs.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/camera/camera.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/chassis/chassis.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/codec/codec.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/colors/colors.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/modules/command/command.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/cpu/cpu.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/cpucache/cpucache.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/cpuusage/cpuusage.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/cursor/cursor.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/custom/custom.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/modules/command/command.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/datetime/datetime.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/de/de.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/disk/disk.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/diskio/diskio.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/modules/display/display.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/dns/dns.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/editor/editor.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/font/font.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/modules/gamepad/gamepad.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/gpu/gpu.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/host/host.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/icons/icons.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/initsystem/initsystem.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/modules/gamepad/gamepad.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/kernel/kernel.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/keyboard/keyboard.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/lm/lm.c.o
@@ -427,8 +440,10 @@ fastfetch: CMakeFiles/libfastfetch.dir/src/modules/loadavg/loadavg.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/locale/locale.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/localip/localip.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/logo/logo.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/modules/media/media.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/memory/memory.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/monitor/monitor.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/modules/mouse/mouse.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/netio/netio.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/opencl/opencl.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/opengl/opengl.c.o
@@ -436,23 +451,21 @@ fastfetch: CMakeFiles/libfastfetch.dir/src/modules/os/os.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/packages/packages.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/physicaldisk/physicaldisk.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/physicalmemory/physicalmemory.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/modules/processes/processes.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/player/player.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/poweradapter/poweradapter.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/modules/processes/processes.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/publicip/publicip.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/modules/display/display.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/separator/separator.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/shell/shell.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/sound/sound.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/swap/swap.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/modules/media/media.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/modules/mouse/mouse.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/terminal/terminal.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/modules/terminaltheme/terminaltheme.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/terminalfont/terminalfont.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/terminalsize/terminalsize.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/modules/terminaltheme/terminaltheme.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/theme/theme.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/title/title.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/modules/top/top.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/tpm/tpm.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/uptime/uptime.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/users/users.c.o
@@ -464,10 +477,6 @@ fastfetch: CMakeFiles/libfastfetch.dir/src/modules/wifi/wifi.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/wm/wm.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/wmtheme/wmtheme.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/modules/zpool/zpool.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/modules/modules.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/options/display.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/options/logo.c.o
-fastfetch: CMakeFiles/libfastfetch.dir/src/options/general.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/dbus.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/io_unix.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/common/impl/netif_linux.c.o
@@ -541,6 +550,7 @@ fastfetch: CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_l
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_linux.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_linux.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/theme/theme_linux.c.o
+fastfetch: CMakeFiles/libfastfetch.dir/src/detection/top/top_linux.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_linux.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_linux.c.o
 fastfetch: CMakeFiles/libfastfetch.dir/src/detection/users/users_linux.c.o
@@ -569,6 +579,6 @@ CMakeFiles/fastfetch.dir/clean:
 .PHONY : CMakeFiles/fastfetch.dir/clean
 
 CMakeFiles/fastfetch.dir/depend:
-	cd /home/nixxy/KoreOS/packages/fastfetch/build_src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1 /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1 /home/nixxy/KoreOS/packages/fastfetch/build_src /home/nixxy/KoreOS/packages/fastfetch/build_src /home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/fastfetch.dir/DependInfo.cmake "--color=$(COLOR)" fastfetch
+	cd /home/nixxy/KoreOS/packages/fastfetch/build_src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0 /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0 /home/nixxy/KoreOS/packages/fastfetch/build_src /home/nixxy/KoreOS/packages/fastfetch/build_src /home/nixxy/KoreOS/packages/fastfetch/build_src/CMakeFiles/fastfetch.dir/DependInfo.cmake "--color=$(COLOR)" fastfetch
 .PHONY : CMakeFiles/fastfetch.dir/depend
 

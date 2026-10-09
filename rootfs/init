@@ -7,6 +7,10 @@ mount -t devtmpfs none /dev
 
 echo "Welcome to KoreOS!"
 
+sleep 1
+
+#trap 'sync; /bin/busybox poweroff -f' USR2
+
 while true; do
     echo "Starting BusyBox shell..."
     (
@@ -43,8 +47,9 @@ while true; do
 
     if [ -f /tmp/shutdown ]; then
       echo "Shutting down KoreOS..."
+
       rm -f /tmp/shutdown
-      umount /proc /sys /dev 2>/dev/null
+      sync
 
       /bin/busybox poweroff -f
     fi

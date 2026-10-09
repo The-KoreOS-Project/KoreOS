@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1/src/fastfetch.c" "CMakeFiles/fastfetch.dir/src/fastfetch.c.o" "gcc" "CMakeFiles/fastfetch.dir/src/fastfetch.c.o.d"
+  "/home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0/src/fastfetch.c" "CMakeFiles/fastfetch.dir/src/fastfetch.c.o" "gcc" "CMakeFiles/fastfetch.dir/src/fastfetch.c.o.d"
   "" "fastfetch" "gcc" "CMakeFiles/fastfetch.dir/link.d"
   )
 

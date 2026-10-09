@@ -57,7 +57,7 @@ RM = /usr/sbin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1
+CMAKE_SOURCE_DIR = /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/nixxy/KoreOS/packages/fastfetch/build_src
@@ -292,6 +292,30 @@ src/common/impl/FFPlatform_unix.s: src/common/impl/FFPlatform_unix.c.s
 src/common/impl/FFPlatform_unix.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/common/impl/FFPlatform_unix.c.s
 .PHONY : src/common/impl/FFPlatform_unix.c.s
+
+src/common/impl/FFcache.o: src/common/impl/FFcache.c.o
+.PHONY : src/common/impl/FFcache.o
+
+# target to build an object file
+src/common/impl/FFcache.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/common/impl/FFcache.c.o
+.PHONY : src/common/impl/FFcache.c.o
+
+src/common/impl/FFcache.i: src/common/impl/FFcache.c.i
+.PHONY : src/common/impl/FFcache.i
+
+# target to preprocess a source file
+src/common/impl/FFcache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/common/impl/FFcache.c.i
+.PHONY : src/common/impl/FFcache.c.i
+
+src/common/impl/FFcache.s: src/common/impl/FFcache.c.s
+.PHONY : src/common/impl/FFcache.s
+
+# target to generate assembly for a file
+src/common/impl/FFcache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/common/impl/FFcache.c.s
+.PHONY : src/common/impl/FFcache.c.s
 
 src/common/impl/FFlist.o: src/common/impl/FFlist.c.o
 .PHONY : src/common/impl/FFlist.o
@@ -3461,6 +3485,54 @@ src/detection/theme/theme_linux.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/theme/theme_linux.c.s
 .PHONY : src/detection/theme/theme_linux.c.s
 
+src/detection/top/top.o: src/detection/top/top.c.o
+.PHONY : src/detection/top/top.o
+
+# target to build an object file
+src/detection/top/top.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/top/top.c.o
+.PHONY : src/detection/top/top.c.o
+
+src/detection/top/top.i: src/detection/top/top.c.i
+.PHONY : src/detection/top/top.i
+
+# target to preprocess a source file
+src/detection/top/top.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/top/top.c.i
+.PHONY : src/detection/top/top.c.i
+
+src/detection/top/top.s: src/detection/top/top.c.s
+.PHONY : src/detection/top/top.s
+
+# target to generate assembly for a file
+src/detection/top/top.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/top/top.c.s
+.PHONY : src/detection/top/top.c.s
+
+src/detection/top/top_linux.o: src/detection/top/top_linux.c.o
+.PHONY : src/detection/top/top_linux.o
+
+# target to build an object file
+src/detection/top/top_linux.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/top/top_linux.c.o
+.PHONY : src/detection/top/top_linux.c.o
+
+src/detection/top/top_linux.i: src/detection/top/top_linux.c.i
+.PHONY : src/detection/top/top_linux.i
+
+# target to preprocess a source file
+src/detection/top/top_linux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/top/top_linux.c.i
+.PHONY : src/detection/top/top_linux.c.i
+
+src/detection/top/top_linux.s: src/detection/top/top_linux.c.s
+.PHONY : src/detection/top/top_linux.s
+
+# target to generate assembly for a file
+src/detection/top/top_linux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/top/top_linux.c.s
+.PHONY : src/detection/top/top_linux.c.s
+
 src/detection/tpm/tpm_linux.o: src/detection/tpm/tpm_linux.c.o
 .PHONY : src/detection/tpm/tpm_linux.o
 
@@ -3868,6 +3940,30 @@ src/logo/image/image.s: src/logo/image/image.c.s
 src/logo/image/image.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/logo/image/image.c.s
 .PHONY : src/logo/image/image.c.s
+
+src/logo/image/sixel.o: src/logo/image/sixel.c.o
+.PHONY : src/logo/image/sixel.o
+
+# target to build an object file
+src/logo/image/sixel.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/logo/image/sixel.c.o
+.PHONY : src/logo/image/sixel.c.o
+
+src/logo/image/sixel.i: src/logo/image/sixel.c.i
+.PHONY : src/logo/image/sixel.i
+
+# target to preprocess a source file
+src/logo/image/sixel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/logo/image/sixel.c.i
+.PHONY : src/logo/image/sixel.c.i
+
+src/logo/image/sixel.s: src/logo/image/sixel.c.s
+.PHONY : src/logo/image/sixel.s
+
+# target to generate assembly for a file
+src/logo/image/sixel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/logo/image/sixel.c.s
+.PHONY : src/logo/image/sixel.c.s
 
 src/logo/logo.o: src/logo/logo.c.o
 .PHONY : src/logo/logo.o
@@ -5453,6 +5549,30 @@ src/modules/title/title.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/modules/title/title.c.s
 .PHONY : src/modules/title/title.c.s
 
+src/modules/top/top.o: src/modules/top/top.c.o
+.PHONY : src/modules/top/top.o
+
+# target to build an object file
+src/modules/top/top.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/modules/top/top.c.o
+.PHONY : src/modules/top/top.c.o
+
+src/modules/top/top.i: src/modules/top/top.c.i
+.PHONY : src/modules/top/top.i
+
+# target to preprocess a source file
+src/modules/top/top.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/modules/top/top.c.i
+.PHONY : src/modules/top/top.c.i
+
+src/modules/top/top.s: src/modules/top/top.c.s
+.PHONY : src/modules/top/top.s
+
+# target to generate assembly for a file
+src/modules/top/top.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/modules/top/top.c.s
+.PHONY : src/modules/top/top.c.s
+
 src/modules/tpm/tpm.o: src/modules/tpm/tpm.c.o
 .PHONY : src/modules/tpm/tpm.o
 
@@ -5815,6 +5935,9 @@ help:
 	@echo "... src/common/impl/FFPlatform_unix.o"
 	@echo "... src/common/impl/FFPlatform_unix.i"
 	@echo "... src/common/impl/FFPlatform_unix.s"
+	@echo "... src/common/impl/FFcache.o"
+	@echo "... src/common/impl/FFcache.i"
+	@echo "... src/common/impl/FFcache.s"
 	@echo "... src/common/impl/FFlist.o"
 	@echo "... src/common/impl/FFlist.i"
 	@echo "... src/common/impl/FFlist.s"
@@ -6211,6 +6334,12 @@ help:
 	@echo "... src/detection/theme/theme_linux.o"
 	@echo "... src/detection/theme/theme_linux.i"
 	@echo "... src/detection/theme/theme_linux.s"
+	@echo "... src/detection/top/top.o"
+	@echo "... src/detection/top/top.i"
+	@echo "... src/detection/top/top.s"
+	@echo "... src/detection/top/top_linux.o"
+	@echo "... src/detection/top/top_linux.i"
+	@echo "... src/detection/top/top_linux.s"
 	@echo "... src/detection/tpm/tpm_linux.o"
 	@echo "... src/detection/tpm/tpm_linux.i"
 	@echo "... src/detection/tpm/tpm_linux.s"
@@ -6262,6 +6391,9 @@ help:
 	@echo "... src/logo/image/image.o"
 	@echo "... src/logo/image/image.i"
 	@echo "... src/logo/image/image.s"
+	@echo "... src/logo/image/sixel.o"
+	@echo "... src/logo/image/sixel.i"
+	@echo "... src/logo/image/sixel.s"
 	@echo "... src/logo/logo.o"
 	@echo "... src/logo/logo.i"
 	@echo "... src/logo/logo.s"
@@ -6460,6 +6592,9 @@ help:
 	@echo "... src/modules/title/title.o"
 	@echo "... src/modules/title/title.i"
 	@echo "... src/modules/title/title.s"
+	@echo "... src/modules/top/top.o"
+	@echo "... src/modules/top/top.i"
+	@echo "... src/modules/top/top.s"
 	@echo "... src/modules/tpm/tpm.o"
 	@echo "... src/modules/tpm/tpm.i"
 	@echo "... src/modules/tpm/tpm.s"

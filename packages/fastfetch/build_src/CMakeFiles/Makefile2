@@ -54,7 +54,7 @@ RM = /usr/sbin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.67.1
+CMAKE_SOURCE_DIR = /home/nixxy/KoreOS/packages/fastfetch/fastfetch-2.69.0
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/nixxy/KoreOS/packages/fastfetch/build_src

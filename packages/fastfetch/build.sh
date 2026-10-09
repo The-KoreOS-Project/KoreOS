@@ -7,7 +7,7 @@ ROOT_DIR=$(realpath "$SCRIPT_DIR/../..")
 ROOTFS="$ROOT_DIR/rootfs"
 BUILD_DIR="$SCRIPT_DIR/build_src"
 
-VERSION="2.67.1"
+VERSION="2.69.0"
 
 echo "=== Configuring Fastfetch Build ==="
 
