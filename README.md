@@ -32,7 +32,7 @@ You can find the website <a href="https://nixxy-lv.github.io/KorWeb">Here!</a>
 
 ## What is this repository?
 This repository contains the files of my Linux Distro: KoreOS.
-KoreOS is an independent Linux Distribuition that uses OpenRC-init (temporarely using BusyBox) and that is still not fully released.
+KoreOS is an independent Linux Distribuition that uses OpenRC-init (temporarely using BusyBox).
 
 ## What is in rootfs/?
 `rootfs/` contains the root filesystem of the KoreOS: /usr, /root, /home...
@@ -43,13 +43,8 @@ KoreOS is an independent Linux Distribuition that uses OpenRC-init (temporarely 
 ## What is packages/?
 `packages/` contains packages used by the OS.
 
-## What is in docs/?
-`docs/` contains my progress in the making of the OS:<br>
-• `ACSH.md` | conatains my biggest acconplishments<br>
-• `CHANGELOG-dpcr.md` | containes a description of each update and upcoming features (changelog will be on github releases and my website's install page)<br>
-
 ## Where do i download it?
-official releases are here on github or on KoreOS's website.
+official releases are here on github or on KoreOS' website.
 
 ## Star History
 
